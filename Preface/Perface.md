@@ -6,6 +6,7 @@ These interfaces can be used  directly or indirectly, by every program that runs
 ---
 ## What is System programs?
 ![System Programs](https://qph.cf2.quoracdn.net/main-qimg-e5cad9b8fe7cc82f97eaf609f437dd2e)
+
 **System Programs** can be defined as the act of building Systems Software using System Programming Languages and comes with OS.
 **EX:**
   1. File Management.
