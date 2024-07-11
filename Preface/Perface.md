@@ -24,5 +24,6 @@ UNIX is Portable Operating System Interface (POSIX), Most UNIX implementations a
   ---
   ### Some important URLs from book
   [Code examples](http://man7.org/tlpi/)
+  
   [Errata](http://man7.org/tlpi/errata/)
   
