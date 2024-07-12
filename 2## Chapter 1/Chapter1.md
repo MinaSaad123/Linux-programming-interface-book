@@ -29,8 +29,6 @@ He drew several ideas for his new operating system from MULTICS, including a tre
 <p align="right">
   <img src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png" alt="Shell Picture" width="300" />
 </p>
-
-
 ### **C programming language arise**
 
 Dennis Ritchie, one of Thompson’s colleagues at Bell Laboratories
