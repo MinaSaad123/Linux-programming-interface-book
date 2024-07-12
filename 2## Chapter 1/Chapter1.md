@@ -26,7 +26,6 @@ Computing Service), This project was cooperation between MIT, AT&T and general e
 He drew several ideas for his new operating system from MULTICS, including a tree-structured file system, a separate program for interpreting commands (the shell), and the notion of files as unstructured streams of bytes.
 <img style="float: right;" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png">
 ### **C programming language arise**
-
 Dennis Ritchie, one of Thompson’s colleagues at Bell Laboratories
 and an early collaborator on UNIX, designed and implemented the C programming
 language. This was an evolutionary process; C followed an earlier
