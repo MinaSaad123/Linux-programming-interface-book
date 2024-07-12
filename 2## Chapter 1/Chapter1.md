@@ -24,7 +24,7 @@ Computing Service), This project was cooperation between MIT, AT&T and general e
 
 ### **What Ken Thompson did ?** 
 He drew several ideas for his new operating system from MULTICS, including a tree-structured file system, a separate program for interpreting commands (the shell), and the notion of files as unstructured streams of bytes.
-<img style="float: right;" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png">
+<img align="right" src="https://zenodo.org/record/7742997/files/Tops_Badge_Nasa.png" width="300" alt="Transform to Open Science Logo that shows a top as a rocket taking off and the text Transform to Open Science in the white vapor plume around the launch site">
 ### **C programming language arise**
 Dennis Ritchie, one of Thompson’s colleagues at Bell Laboratories
 and an early collaborator on UNIX, designed and implemented the C programming
