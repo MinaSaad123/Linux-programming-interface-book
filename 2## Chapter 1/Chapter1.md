@@ -22,11 +22,14 @@ This term refers to the various versions or derivatives of the UNIX OS.
 The name UNIX was a pun on **MULTICS** (Multiplexed Information and
 Computing Service), This project was cooperation between MIT, AT&T and general electronics, Ken Thompson participate in this project, but eventually  AT&T **withdrawn** from project in frustration at its initial failure to develop an economically useful system.
 
-<img align="right" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png" width="300" alt=" Shell image">
+### **What Ken Thompson did ?**
 
-### **What Ken Thompson did ?** 
+<img style="float: right;" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png">
+
 He drew several ideas for his new operating system from MULTICS, including a tree-structured file system, a separate program for interpreting commands (the shell), and the notion of files as unstructured streams of bytes.
+
 ### **C programming language arise**
+
 Dennis Ritchie, one of Thompson’s colleagues at Bell Laboratories
 and an early collaborator on UNIX, designed and implemented the C programming
 language. This was an evolutionary process; C followed an earlier
@@ -136,4 +139,16 @@ representing a major version, **y** a minor version within that major version, a
 ### **LINUX vs GNU/LINUX**
 
 Because a significant part of the program code that constitutes what is commonly known as the Linux system actually derives from the GNU project, Stallman prefers to use the term GNU/Linux to refer to the entire system. **<u>The question of naming (Linux versus GNU/Linux) is the source of some debate in the free software community</u>**.
+
+### **The C programming language versions**
+
+- A created drive for C standardization that culminated in 1989
+with the approval of the **American National Standards Institute** (**ANSI**) C standard
+(X3.159-1989), which was subsequently adopted in 1990 as an **International Standards Organization** (**ISO**) standard **(ISO/IEC 9899:1990)**., **<u>this standard described the operation of the standard C library</u>**, which includes the `stdio` functions, `string`-handling functions, `math` functions, various header files, and so on. This version of C is usually **known as `C89`, `ANSI C` or (less commonly) `ISO C90`** 
+
+- A revision of the C standard was adopted by **(ISO/IEC 9899:1999)** This standard is usually referred to as `C99`, and includes a range of changes to the language and its standard library. **<u>These changes include the addition of long long and Boolean data
+types, C++-style (//) comments, restricted pointers, and variable-length arrays</u>**, Now it's called `ANSI C`.
+
+### **POSIX Standards**
+
 
