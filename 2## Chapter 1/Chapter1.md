@@ -23,7 +23,9 @@ The name UNIX was a pun on **MULTICS** (Multiplexed Information and
 Computing Service), This project was cooperation between MIT, AT&T and general electronics, Ken Thompson participate in this project, but eventually  AT&T **withdrawn** from project in frustration at its initial failure to develop an economically useful system.
 
 ### **What Ken Thompson did ?**
-<img style="align: right;" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png">
+
+<img style="float: right;" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png">
+
 He drew several ideas for his new operating system from MULTICS, including a tree-structured file system, a separate program for interpreting commands (the shell), and the notion of files as unstructured streams of bytes.
 
 ### **C programming language arise**
@@ -117,7 +119,7 @@ software in general.
 
 2. Modifications to GPL-licensed software **are freely permitted**, but any distribution of such modified software must also be under the terms of the GPL. If the modified software is distributed in executable form, the author **<u>must also allow any recipients the option of obtaining the modified source for no more than the cost of distribution</u>**.
 
-### **GNU kernel**
+### **The genesis of LINUX kernel**
 
 > #### **The beginning**
 >The GNU project did not initially produce a working UNIX kernel, but did produce a wide range of other programs like:
@@ -128,7 +130,11 @@ software in general.
 > > #### **Linus Torvalds Contribution**
 > > Torvalds  started on a project to create an efficient, full-featured UNIX kernel to run on the 386. Over a few months, **<u>Torvalds developed a basic kernel that allowed him to compile and run various GNU programs</u>**, Torvalds requested the help of other programmers, According to that The call for support proved effective. Other programmers joined Torvalds in the development of Linux, adding various features, such as an improved file system, networking support, device drivers, and multiprocessor support.
 
+### **Linux kernel version numbers**
 
+the kernel developers
+adopted a kernel version numbering scheme with each release numbered **x.y.z** : **x**
+representing a major version, **y** a minor version within that major version, and **z** a revision of the minor version (minor improvements and bug fixes).
 
 ### **LINUX vs GNU/LINUX**
 
