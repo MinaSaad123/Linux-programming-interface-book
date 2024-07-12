@@ -24,11 +24,9 @@ Computing Service), This project was cooperation between MIT, AT&T and general e
 
 ### **What Ken Thompson did ?**
 
-He drew several ideas for his new operating system from MULTICS, including a tree-structured file system, a separate program for interpreting commands (the shell), and the notion of files as unstructured streams of bytes.
-
 <p align="right">
   <img src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png" alt="Shell Picture" width="300" />
-</p>
+</p> He drew several ideas for his new operating system from MULTICS, including a tree-structured file system, a separate program for interpreting commands (the shell), and the notion of files as unstructured streams of bytes.
 
 ### **C programming language arise**
 
