@@ -22,7 +22,7 @@ This term refers to the various versions or derivatives of the UNIX OS.
 The name UNIX was a pun on **MULTICS** (Multiplexed Information and
 Computing Service), This project was cooperation between MIT, AT&T and general electronics, Ken Thompson participate in this project, but eventually  AT&T **withdrawn** from project in frustration at its initial failure to develop an economically useful system.
 
-<img style="align: right;" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png" alt= "The Shell" >
+<img align= "right" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png" alt= "The Shell" >
 
 ### **What Ken Thompson did ?**
 
