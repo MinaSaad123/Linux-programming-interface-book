@@ -22,11 +22,9 @@ This term refers to the various versions or derivatives of the UNIX OS.
 The name UNIX was a pun on **MULTICS** (Multiplexed Information and
 Computing Service), This project was cooperation between MIT, AT&T and general electronics, Ken Thompson participate in this project, but eventually  AT&T **withdrawn** from project in frustration at its initial failure to develop an economically useful system.
 
-<img align= "right" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png" alt= "The Shell" >
-
 ### **What Ken Thompson did ?**
 
-
+<img align= "right" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png" alt= "The Shell" >
 
 He drew several ideas for his new operating system from MULTICS, including a tree-structured file system, a separate program for interpreting commands (the shell), and the notion of files as unstructured streams of bytes.
 
@@ -146,11 +144,53 @@ Because a significant part of the program code that constitutes what is commonly
 
 - A created drive for C standardization that culminated in 1989
 with the approval of the **American National Standards Institute** (**ANSI**) C standard
-(X3.159-1989), which was subsequently adopted in 1990 as an **International Standards Organization** (**ISO**) standard **(ISO/IEC 9899:1990)**., **<u>this standard described the operation of the standard C library</u>**, which includes the `stdio` functions, `string`-handling functions, `math` functions, various header files, and so on. This version of C is usually **known as `C89`, `ANSI C` or (less commonly) `ISO C90`** 
+(X3.159-1989), which was subsequently adopted in 1990 as an **International Standards Organization** (**ISO**) standard **(ISO/IEC 9899:1990)**., **<u>this standard described the operation of the standard C library</u>**, which includes the `stdio` functions, `string`-handling functions, `math` functions, various header files, and so on. This version of C is usually **known as `C89`, `ANSI C` or (less commonly) `ISO C90`**.
 
 - A revision of the C standard was adopted by **(ISO/IEC 9899:1999)** This standard is usually referred to as `C99`, and includes a range of changes to the language and its standard library. **<u>These changes include the addition of long long and Boolean data
 types, C++-style (//) comments, restricted pointers, and variable-length arrays</u>**, Now it's called `ANSI C`.
 
 ### **POSIX Standards**
 
+The term **POSIX** (an abbreviation of **Portable Operating System Interface**) refers to a group of standards developed under the auspices of **the Institute of Electrical and Electronic Engineers** (IEEE), specifically its **Portable Application Standards Committee**.
 
+### **POSIX.1 and POSIX.2**
+
+#### **POSIX.1**
+
+**<u>POSIX.1 became an IEEE standard in 1988</u>** and, with minor revisions, was adopted **as an ISO standard in 1990** (ISO/IEC 9945-1:1990).
+
+POSIX.1 is based on **the UNIX system call and the C library function API**, but
+it doesn’t require any particular implementation to be associated with this interface.
+This means that the **<u>interface can be implemented by any operating system, not specifically a UNIX operating system</u>**.
+
+The POSIX.1 realtime extensions include file **synchronization; asynchronous I/O; process scheduling; high-precision clocks and timers; and interprocess communication using semaphores, shared memory, and message queues. The prefix POSIX is often applied to the three interprocess communication methods to distinguish them from the similar, but older, System V semaphores, shared memory, and message queues.**
+
+####  **POSIX.2**
+
+POSIX.2 (1992, ISO/IEC 9945-2:1993), **standardized the shell and various UNIX utilities, including the command-line interface of the C compiler**.
+
+### **X/Open Company and The Open Group**
+
+- X/Open Company was formed by an international group of computer
+vendors **<u>to adopt and adapt existing standards in order to produce a comprehensive, consistent set of open systems standards</u>**. It produced the X/Open
+Portability Guide, a series of portability guides based on the POSIX standards. The
+first important release of this guide was Issue 3 **(XPG3)** in 1989, followed by XPG4
+in 1992. XPG4 was revised in 1994, which resulted in XPG4 version 2.
+
+- When Novell, which acquired the UNIX systems business from AT&T in early
+1993, **later divested itself of that business, it transferred the rights to the UNIX trademark to X/Open**, The consequence XPG4 version 2 was subsequently
+repackaged **as the Single UNIX Specification**.
+
+- Later, X/Open merged with the Open Software Foundation (**OSF**) **<u>to form The Open Group</u>**, Nearly every company or organization involved with the UNIX system
+is now a member of The Open Group, **<u>which continues to develop API standards</u>**.
+
+#### **What is OSF**
+OSF was one of two vendor consortia formed during the UNIX wars of the late
+1980s. Among others, OSF **included Digital, IBM, HP, Apollo, Bull, Nixdorf,
+and Siemens**, OSF was formed primarily in response **to the threat created by a business alliance between AT&T** (the originators of UNIX) and **Sun** (the most
+powerful player in the UNIX workstation market).
+
+### **SUSv3 and POSIX.1-2001**
+
+Beginning in 1999, the IEEE, The Open Group, and the ISO/IEC Joint Technical
+Committee 1 collaborated in the Austin Common Standards Revision Group with the aim of **<u>revising and consolidating the POSIX standards and the Single UNIX Specification</u>**.
