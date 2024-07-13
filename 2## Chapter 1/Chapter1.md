@@ -192,5 +192,22 @@ powerful player in the UNIX workstation market).
 
 ### **SUSv3 and POSIX.1-2001**
 
-Beginning in 1999, the IEEE, The Open Group, and the ISO/IEC Joint Technical
-Committee 1 collaborated in the Austin Common Standards Revision Group with the aim of **<u>revising and consolidating the POSIX standards and the Single UNIX Specification</u>**.
+- Beginning in 1999, the IEEE, The Open Group, and the ISO/IEC Joint Technical
+Committee 1 collaborated in the Austin Common Standards Revision Group with the aim of **<u>revising and consolidating the POSIX standards and the Single UNIX Specification</u>**, This resulted in **the ratification of POSIX 1003.1-2001**
+
+- **POSIX 1003.1-2001** replaces SUSv2, POSIX.1, POSIX.2, and a raft of other earlier
+POSIX standards. **This standard is also known as the Single UNIX Specification Version 3**, and we’ll generally refer to it in the remainder of this book as `SUSv3`.
+
+The SUSv3 base specifications consists of **around 3700 pages**, divided into the
+following four parts:
+
+1. **Base Definitions** (XBD): This part contains definitions, terms, concepts, and
+specifications of the contents of header files. **<u>A total of 84 header file specifications are provided</u>**.
+
+ 2. **System Interfaces** (XSH): This part begins with various useful background information. Its bulk consists of the specification of various functions (which are implemented as either system calls or library functions on specific UNIX implementations).**A total of 1123 system interfaces are included in this part**.
+
+3. **Shell and Utilities** (XCU): This specifies the operation of the shell and various
+UNIX commands. **A total of 160 utilities are specified in this part**.
+
+ 4. **Rationale** (XRAT): This part includes informative text and justifications relating
+to the earlier parts.
