@@ -2,25 +2,25 @@
 
 ## **UNIX**
 
-UNIX implementations diverged over time, so that writing applications that
-worked on all UNIX implementations became increasingly difficult, This led to a
+UNIX implementations had diverged over time, which had led to difficulty in writing applications that
+worked on all UNIX implementations. This led to a
 drive for standardization of UNIX implementations.
 
 **There are two definations of UNIX:**
 
-- One of these denotes operating systems that have passed the official conformance tests for the Single UNIX Specification and thus are officially granted the right to be branded as **“UNIX”**.
+- One of these denotes those operating systems that have passed the official conformance tests for the Single UNIX Specification and thus are officially granted the right to be branded as **“UNIX”**.
 
 - The other common meaning attached to the term UNIX denotes those systems that look and behave like classical UNIX systems.
 
-***According to the second defination Linux is generally considered to be UNIX system.***
+***According to the second definition Linux is generally considered to be UNIX system.***
 
-### **What is the meaning of UNIX implementation ?**
+### **What is the meaning of UNIX implementation?**
 This term refers to the various versions or derivatives of the UNIX OS.
 
 ## **History of UNIX**
 
 The name UNIX was a pun on **MULTICS** (Multiplexed Information and
-Computing Service), This project was cooperation between MIT, AT&T and general electronics, Ken Thompson participate in this project, but eventually  AT&T **withdrawn** from project in frustration at its initial failure to develop an economically useful system.
+Computing Service). This project was a cooperation between MIT, AT&T and general electronics. Ken Thompson participate in this project, but eventually  AT&T **withdrawn** from project in frustration at its initial failure to develop an economically useful system.
 
 ### **What Ken Thompson did ?**
 
