@@ -209,5 +209,24 @@ specifications of the contents of header files. **<u>A total of 84 header file s
 3. **Shell and Utilities** (XCU): This specifies the operation of the shell and various
 UNIX commands. **A total of 160 utilities are specified in this part**.
 
- 4. **Rationale** (XRAT): This part includes informative text and justifications relating
-to the earlier parts.
+ 4. **Rationale** (XRAT): This part includes informative text and justifications relating to the earlier parts.
+
+**SUS standards made mandatory many of the interfaces and behaviors that were deemed optional in POSIX**.
+
+### **SUSv4 and POSIX.1-2008**
+
+In 2008, the Austin group completed **<u>a revision of the combined POSIX.1 and Single UNIX Specification</u>**. As with the preceding version of the standard, it consists
+of a base specification coupled with an XSI extension. We’ll refer to this revision
+as **SUSv4**.
+
+### **Different between SUS Standards and POSIX standarads**
+
+#### **POSIX standards**
+
+- are standards that define the application programming interface (API) and shell/utilities interface for operating systems, particularly UNIX-like systems.
+
+- POSIX is a family of standards specified by the IEEE **to promote portability of application programs at the source code level**. It defines a standard API for the operating system, including system calls, shell, and some utility programs.
+
+#### **SUS standards**
+
+is a standard developed and maintained by **The Open Group** that defines a superset of the POSIX standard. It specifies a broader set of APIs, shell commands, and utilities for UNIX-like operating systems.**SUS aims to ensure compatibility and interoperability across different UNIX implementation**.
