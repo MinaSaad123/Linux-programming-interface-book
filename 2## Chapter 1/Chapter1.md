@@ -3,7 +3,7 @@
 ## **UNIX**
 
 UNIX implementations had diverged over time, which had led to difficulty in writing applications that
-worked on all UNIX implementations. This has led to a drive for standardization of UNIX implementations.
+worked on all UNIX implementations. This had led to a drive for standardization of UNIX implementations.
 
 **There are two definitions of UNIX:**
 
