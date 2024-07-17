@@ -227,3 +227,52 @@ In 2008, the Austin group completed **<u>a revision of the combined POSIX.1 and 
 #### **SUS standards**
 
 A standard developed and maintained by **The Open Group** that defines a superset of the POSIX standard. It specifies a broader set of APIs, shell commands, and utilities for UNIX-like operating systems.**SUS aims to ensure compatibility and interoperability across different UNIX implementation**.
+
+## **POSIX conformance, XSI conformance, and the XSI extension**
+
+**POSIX conformance:** This defines a baseline of interfaces that a conforming
+implementation must provide. It permits the implementation to provide other
+optional interfaces.
+
+**X/Open System Interface (XSI) conformance:** To be XSI conformant, an implementation
+must meet all of the requirements of **<u>POSIX conformance</u>** and also must
+**<u>provide a number of interfaces and behaviors that are only optionally required
+for POSIX conformance</u>**. An implementation must reach this level of conformance
+in order to obtain the **UNIX 03 branding** from The Open Group.
+
+**In later chapters, when we talk about SUSv3 conformance, we mean XSI
+conformance.**
+
+---
+### **XSI extension**
+
+The additional interfaces and behaviors required for XSI conformance.
+
+## **Unspecified, weakly specified and legacy features**
+
+Occasionally, we refer to an interface as being **“unspecified”** or **“weakly specified”**
+within SUSv3.
+
+ - **<u>unspecified interface:</u>** we mean one that **is not defined at all in the formal standard**, although in a few cases **there are background notes or rationale text that mention the interface.**
+
+- **<u>weakly specified:</u>** is shorthand for saying that, while the
+interface is included in the standard, important details are left unspecified (**commonly because the committee members could not reach an agreement due to differences in existing implementations**).
+
+- **<u>LEGACY features</u>:** Sometimes, we note that SUSv3 marks a specified feature as LEGACY. **This term denotes a feature that is retained for compatibility with older applications**, but whose limitations mean that its use should be avoided in new applications. In many cases, some other API exists that provides equivalent functionality.
+
+## **UNIX Standards Timeline**
+
+<img  src="https://i.imgur.com/6yGiLF8.png" alt= "Standarads history" >
+
+The solid lines indicate direct descent between standards, and the dashed arrows indicate cases where one standard influenced another standard, was incorporated as part of another standard, or simply deferred to another standard.
+
+|POSIX "Portable Operating System Interface" |SUS "the Single UNIX Specification" |
+|--------------------------------------------|------------------------------------|
+|                                    |                                 |
+
+
+## **The Linux Standard Base (LSB)**
+**is an effort to ensure compatibility among the various Linux distributions.** 
+
+To do this, the LSB **develops and promotes a set of standards for
+Linux systems with the aim of ensuring that binary applications** (i.e., compiled programs) can run on any LSB-conformant system.
