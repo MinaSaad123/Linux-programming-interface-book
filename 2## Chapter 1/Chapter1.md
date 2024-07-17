@@ -2,44 +2,40 @@
 
 ## **UNIX**
 
-UNIX implementations diverged over time, so that writing applications that
-worked on all UNIX implementations became increasingly difficult, This led to a
-drive for standardization of UNIX implementations.
+UNIX implementations had diverged over time, which had led to difficulty in writing applications that
+worked on all UNIX implementations. This had led to a drive for standardization of UNIX implementations.
 
-**There are two definations of UNIX:**
+**There are two definitions of UNIX:**
 
-- One of these denotes operating systems that have passed the official conformance tests for the Single UNIX Specification and thus are officially granted the right to be branded as **“UNIX”**.
+- One of these denotes those operating systems that have passed the official conformance tests for the Single UNIX Specification, and thus are officially granted the right to be branded as **“UNIX”**.
 
 - The other common meaning attached to the term UNIX denotes those systems that look and behave like classical UNIX systems.
 
-***According to the second defination Linux is generally considered to be UNIX system.***
+***According to the second definition Linux is generally considered to be UNIX system.***
 
-### **What is the meaning of UNIX implementation ?**
+### **What is the meaning of UNIX implementation?**
 This term refers to the various versions or derivatives of the UNIX OS.
 
 ## **History of UNIX**
 
 The name UNIX was a pun on **MULTICS** (Multiplexed Information and
-Computing Service), This project was cooperation between MIT, AT&T and general electronics, Ken Thompson participate in this project, but eventually  AT&T **withdrawn** from project in frustration at its initial failure to develop an economically useful system.
+Computing Service). This project had been a cooperation between MIT, AT&T and general electronics. Ken Thompson participated in this project, but eventually  AT&T **withdrawn** from the project in frustration at its initial failure to develop an economically useful system.
 
-### **What Ken Thompson did ?**
+### **What Ken Thompson did?**
 
 <img align= "right" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png" alt= "The Shell" >
 
-He drew several ideas for his new operating system from MULTICS, including a tree-structured file system, a separate program for interpreting commands (the shell), and the notion of files as unstructured streams of bytes.
+He had drawn several ideas for his new operating system from MULTICS, including a tree-structured file system, a separate program for interpreting commands (the shell), and the notion of files as unstructured streams of bytes.
 
 ### **C programming language arise**
 
-Dennis Ritchie, one of Thompson’s colleagues at Bell Laboratories
-and an early collaborator on UNIX, designed and implemented the C programming
-language. This was an evolutionary process; C followed an earlier
-interpreted language, B. B was initially implemented by Thompson.
+Dennis Ritchie, one of Thompson’s colleagues at Bell Laboratories and an early collaborator on UNIX, had designed and implemented the C programming language. This had been an evolutionary process; C followed an earlier interpreted language, the B programming language had initially been implemented by Thompson.
 
-***One importances of High-Level language is it made subsequent porting to other hardwarearchitectures possible.***
+***One of the importances of High-Level language is it made subsequent porting to other hardware architectures possible, while perserving almost the same language morphology and features.***
 
 ***
 
-### **UNIX editions evoluation**
+### **UNIX editions evolution**
 
 - **First Edition**, November 1971: By this time, UNIX was running on the PDP-11
 and already had a FORTRAN compiler and versions of many programs still
@@ -59,30 +55,24 @@ written in C.
 -  **Sixth Edition**, May 1975: This was the first edition to be widely used outside
 AT&T.
 
-- **Seventh Edition** , which improved the reliability of the system and provided an enhanced file system. This release also contained a number of new tools, including `awk`, `make`, `sed`, `tar`, `uucp`, the Bourne shell, and a FORTRAN 77 compiler.
+- **Seventh Edition**, which had improved the reliability of the system and provided an enhanced file system. This release also contained a number of new tools, including `awk`, `make`, `sed`, `tar`, `uucp`, the Bourne shell, and a FORTRAN 77 compiler.
 
 **Then** UNIX diverged into two important variants: **BSD** and **SystemV**
 
 #### **Berkeley Software Distribution (BSD)**
 >  Over time, many new tools and features were developed at Berkeley, including the C shell, the `vi` editor, an improved file system (the Berkeley Fast File System), `sendmail`, a Pascal compiler, and virtual memory management
 >> In 1983, the Computer Systems Research Group at the University of California at
-Berkeley released **4.2BSD**, This release was significant because it contained a complete **TCP/IP implementation** including the **sockets application programming**
-interface (API) and a variety of networking tools. **4.2BSD** and its predecessor **4.1BSD** became widely distributed within universities around the world. They also formed the basis for SunOS.
->>> Later It is worth noting that  free UNIX was already available for the x86-32 during the early 1990s. **Bill and Lynne Jolitz** had developed a port of the already
-mature BSD system for the x86-32, known as 386/BSD. This port was based on the
-BSD Net/2 release ( June 1991), a version of the **4.3BSD** source code **<u>in which all remaining proprietary AT&T source code had either been replaced or, in the case of six source code files that could not be trivially rewritten, removed</u>**
+Berkeley released **4.2BSD**. This release was significant because it contained a complete **TCP/IP implementation** including the **sockets application programming
+interface (API)** and a variety of networking tools. **4.2BSD** and its predecessor **4.1BSD** became widely distributed within universities around the world. They also formed the basis for SunOS.
+>>> Later, it is worth noting that free UNIX was already available for the x86-32 during the early 1990s. **Bill and Lynne Jolitz** had developed a port of the already
+mature BSD system for the x86-32, known as 386/BSD. This port had been based on the
+BSD Net/2 release (June 1991), a version of the **4.3BSD** source code **<u>in which all remaining proprietary AT&T source code had either been replaced or, in the case of six source code files that could not be trivially rewritten, removed</u>**
 >>>> After an initial wave of success and popularity, **work on 386/BSD lagged for various reasons**. In the face of an increasingly large backlog of patches, two
 alternative development groups soon appeared, creating their own releases based
 on: **NetBSD**, **<u>which emphasizes portability to a wide range of hardware platforms</u>**, and **FreeBSD**, **<u>which emphasizes performance and is the most widespread of the modern BSDs</u>**.
->>>>> Probably no discussion of the BSDs in the early 1990s is complete without mention
-of the lawsuits between **UNIX System Laboratories** (*USL*, the AT&T subsidiary
-spun off to develop and market UNIX) and Berkeley, After a lot of lawsuits from USL and countersuits from University of California, There is settlement are done that includes  
-the University of California being required **<u>to remove 3 of the 18,000 files in the Net/2 release, make some minor changes to a few other files, and add USL copyright notices to around 70 other files</u>**, which the university nevertheless could
-continue to distribute freely. This modified system was released as 4.4BSD-Lite
-in June 1994.
-
-
-
+>>>>> Probably no discussion of the BSDs in the early 1990s is complete without mention of the lawsuits between **UNIX System Laboratories** (*USL*, the AT&T subsidiary
+spun off to develop and market UNIX) and Berkeley. After a lot of lawsuits from USL and countersuits from University of California, There is settlement are done that includes the University of California being required **<u>to remove 3 of the 18,000 files in the Net/2 release, make some minor changes to a few other files, and add USL copyright notices to around 70 other files</u>**, which the university nevertheless could
+continue to distribute freely. This modified system was released as 4.4BSD-Lite in June 1994.
 
 #### **System V**
 
@@ -213,29 +203,27 @@ following four parts:
 1. **Base Definitions** (XBD): This part contains definitions, terms, concepts, and
 specifications of the contents of header files. **<u>A total of 84 header file specifications are provided</u>**.
 
- 2. **System Interfaces** (XSH): This part begins with various useful background information. Its bulk consists of the specification of various functions (which are implemented as either system calls or library functions on specific UNIX implementations).**A total of 1123 system interfaces are included in this part**.
+2. **System Interfaces** (XSH): This part begins with various useful background information. Its bulk consists of the specification of various functions (which are implemented as either system calls or library functions on specific UNIX implementations).**A total of 1123 system interfaces are included in this part**.
 
 3. **Shell and Utilities** (XCU): This specifies the operation of the shell and various
 UNIX commands. **A total of 160 utilities are specified in this part**.
 
- 4. **Rationale** (XRAT): This part includes informative text and justifications relating to the earlier parts.
+4. **Rationale** (XRAT): This part includes informative text and justifications relating to the earlier parts.
 
 **SUS standards made mandatory many of the interfaces and behaviors that were deemed optional in POSIX**.
 
 ## **SUSv4 and POSIX.1-2008**
 
-In 2008, the Austin group completed **<u>a revision of the combined POSIX.1 and Single UNIX Specification</u>**. As with the preceding version of the standard, it consists
-of a base specification coupled with an XSI extension. We’ll refer to this revision
-as **SUSv4**.
+In 2008, the Austin group completed **<u>a revision of the combined POSIX.1 and Single UNIX Specification</u>**. As with the preceding version of the standard, it consists of a base specification coupled with an XSI extension. We’ll refer to this revision as **SUSv4**.
 
 ### **Different between SUS Standards and POSIX standarads**
 
 #### **POSIX standards**
 
-- are standards that define the application programming interface (API) and shell/utilities interface for operating systems, particularly UNIX-like systems.
+- Define the application programming interface (API) and shell/utilities interface for operating systems, particularly UNIX-like systems.
 
-- POSIX is a family of standards specified by the IEEE **to promote portability of application programs at the source code level**. It defines a standard API for the operating system, including system calls, shell, and some utility programs.
+- A family of standards specified by the IEEE **to promote portability of application programs at the source code level** defining a standard API for the operating system, including system calls, shell, and some utility programs.
 
 #### **SUS standards**
 
-is a standard developed and maintained by **The Open Group** that defines a superset of the POSIX standard. It specifies a broader set of APIs, shell commands, and utilities for UNIX-like operating systems.**SUS aims to ensure compatibility and interoperability across different UNIX implementation**.
+A standard developed and maintained by **The Open Group** that defines a superset of the POSIX standard. It specifies a broader set of APIs, shell commands, and utilities for UNIX-like operating systems.**SUS aims to ensure compatibility and interoperability across different UNIX implementation**.
