@@ -24,7 +24,7 @@ Computing Service), This project was cooperation between MIT, AT&T and general e
 
 ### **What Ken Thompson did ?**
 
-<img style="float: right;" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png">
+<img align= "right" src="https://media.geeksforgeeks.org/wp-content/uploads/18834419_1198504446945937_35839918_n-300x291.png" alt= "The Shell" >
 
 He drew several ideas for his new operating system from MULTICS, including a tree-structured file system, a separate program for interpreting commands (the shell), and the notion of files as unstructured streams of bytes.
 
@@ -119,7 +119,7 @@ software in general.
 
 2. Modifications to GPL-licensed software **are freely permitted**, but any distribution of such modified software must also be under the terms of the GPL. If the modified software is distributed in executable form, the author **<u>must also allow any recipients the option of obtaining the modified source for no more than the cost of distribution</u>**.
 
-### **GNU kernel**
+### **The genesis of LINUX kernel**
 
 > #### **The beginning**
 >The GNU project did not initially produce a working UNIX kernel, but did produce a wide range of other programs like:
@@ -130,9 +130,108 @@ software in general.
 > > #### **Linus Torvalds Contribution**
 > > Torvalds  started on a project to create an efficient, full-featured UNIX kernel to run on the 386. Over a few months, **<u>Torvalds developed a basic kernel that allowed him to compile and run various GNU programs</u>**, Torvalds requested the help of other programmers, According to that The call for support proved effective. Other programmers joined Torvalds in the development of Linux, adding various features, such as an improved file system, networking support, device drivers, and multiprocessor support.
 
+### **Linux kernel version numbers**
 
+the kernel developers
+adopted a kernel version numbering scheme with each release numbered **x.y.z** : **x**
+representing a major version, **y** a minor version within that major version, and **z** a revision of the minor version (minor improvements and bug fixes).
 
 ### **LINUX vs GNU/LINUX**
 
 Because a significant part of the program code that constitutes what is commonly known as the Linux system actually derives from the GNU project, Stallman prefers to use the term GNU/Linux to refer to the entire system. **<u>The question of naming (Linux versus GNU/Linux) is the source of some debate in the free software community</u>**.
+
+### **The C programming language versions**
+
+- A created drive for C standardization that culminated in 1989
+with the approval of the **American National Standards Institute** (**ANSI**) C standard
+(X3.159-1989), which was subsequently adopted in 1990 as an **International Standards Organization** (**ISO**) standard **(ISO/IEC 9899:1990)**., **<u>this standard described the operation of the standard C library</u>**, which includes the `stdio` functions, `string`-handling functions, `math` functions, various header files, and so on. This version of C is usually **known as `C89`, `ANSI C` or (less commonly) `ISO C90`**.
+
+- A revision of the C standard was adopted by **(ISO/IEC 9899:1999)** This standard is usually referred to as `C99`, and includes a range of changes to the language and its standard library. **<u>These changes include the addition of long long and Boolean data
+types, C++-style (//) comments, restricted pointers, and variable-length arrays</u>**, Now it's called `ANSI C`.
+
+## **POSIX Standards**
+
+The term **POSIX** (an abbreviation of **Portable Operating System Interface**) refers to a group of standards developed under the auspices of **the Institute of Electrical and Electronic Engineers** (IEEE), specifically its **Portable Application Standards Committee**.
+
+### **POSIX.1 and POSIX.2**
+
+#### **POSIX.1**
+
+**<u>POSIX.1 became an IEEE standard in 1988</u>** and, with minor revisions, was adopted **as an ISO standard in 1990** (ISO/IEC 9945-1:1990).
+
+POSIX.1 is based on **the UNIX system call and the C library function API**, but
+it doesn’t require any particular implementation to be associated with this interface.
+This means that the **<u>interface can be implemented by any operating system, not specifically a UNIX operating system</u>**.
+
+The POSIX.1 realtime extensions include file **synchronization; asynchronous I/O; process scheduling; high-precision clocks and timers; and interprocess communication using semaphores, shared memory, and message queues. The prefix POSIX is often applied to the three interprocess communication methods to distinguish them from the similar, but older, System V semaphores, shared memory, and message queues.**
+
+####  **POSIX.2**
+
+POSIX.2 (1992, ISO/IEC 9945-2:1993), **standardized the shell and various UNIX utilities, including the command-line interface of the C compiler**.
+
+---
+
+## **Beginning of X/Open company, Open Group and SUS**
+
+- X/Open Company was formed by an international group of computer
+vendors **<u>to adopt and adapt existing standards in order to produce a comprehensive, consistent set of open systems standards</u>**. It produced the X/Open
+Portability Guide, a series of portability guides based on the POSIX standards. The
+first important release of this guide was Issue 3 **(XPG3)** in 1989, followed by XPG4
+in 1992. XPG4 was revised in 1994, which resulted in XPG4 version 2.
+
+- When Novell, which acquired the UNIX systems business from AT&T in early
+1993, **later divested itself of that business, it transferred the rights to the UNIX trademark to X/Open**, The consequence XPG4 version 2 was subsequently
+repackaged **as the Single UNIX Specification**.
+
+- Later, X/Open merged with the Open Software Foundation (**OSF**) **<u>to form The Open Group</u>**, Nearly every company or organization involved with the UNIX system
+is now a member of The Open Group, **<u>which continues to develop API standards</u>**.
+
+#### **So what's SUS standards ?**
+
+is a standard developed and maintained by **The Open Group** that defines a superset of the POSIX standard. It specifies a broader set of APIs, shell commands, and utilities for UNIX-like operating systems.**SUS aims to ensure compatibility and interoperability across different UNIX implementation**.
+
+---
+
+#### **What is OSF**
+OSF was one of two vendor consortia formed during the UNIX wars of the late
+1980s. Among others, OSF **included Digital, IBM, HP, Apollo, Bull, Nixdorf,
+and Siemens**, OSF was formed primarily in response **to the threat created by a business alliance between AT&T** (the originators of UNIX) and **Sun** (the most
+powerful player in the UNIX workstation market).
+
+## **SUSv3 and POSIX.1-2001**
+
+- Beginning in 1999, the IEEE, The Open Group, and the ISO/IEC Joint Technical
+Committee 1 collaborated in the Austin Common Standards Revision Group with the aim of **<u>revising and consolidating the POSIX standards and the Single UNIX Specification</u>**, This resulted in **the ratification of POSIX 1003.1-2001**
+
+- **POSIX 1003.1-2001** replaces SUSv2, POSIX.1, POSIX.2, and a raft of other earlier
+POSIX standards. **This standard is also known as the Single UNIX Specification Version 3**, and we’ll generally refer to it in the remainder of this book as `SUSv3`.
+
+The SUSv3 base specifications consists of **around 3700 pages**, divided into the
+following four parts:
+
+1. **Base Definitions** (XBD): This part contains definitions, terms, concepts, and
+specifications of the contents of header files. **<u>A total of 84 header file specifications are provided</u>**.
+
+ 2. **System Interfaces** (XSH): This part begins with various useful background information. Its bulk consists of the specification of various functions (which are implemented as either system calls or library functions on specific UNIX implementations).**A total of 1123 system interfaces are included in this part**.
+
+3. **Shell and Utilities** (XCU): This specifies the operation of the shell and various
+UNIX commands. **A total of 160 utilities are specified in this part**.
+
+ 4. **Rationale** (XRAT): This part includes informative text and justifications relating to the earlier parts.
+
+**SUS standards made mandatory many of the interfaces and behaviors that were deemed optional in POSIX**.
+
+## **SUSv4 and POSIX.1-2008**
+
+In 2008, the Austin group completed **<u>a revision of the combined POSIX.1 and Single UNIX Specification</u>**. As with the preceding version of the standard, it consists
+of a base specification coupled with an XSI extension. We’ll refer to this revision
+as **SUSv4**.
+
+### **Different between SUS Standards and POSIX standarads**
+
+#### **POSIX standards**
+
+- are standards that define the application programming interface (API) and shell/utilities interface for operating systems, particularly UNIX-like systems.
+
+- POSIX is a family of standards specified by the IEEE **to promote portability of application programs at the source code level**. It defines a standard API for the operating system, including system calls, shell, and some utility programs.
 
