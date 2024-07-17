@@ -198,6 +198,7 @@ OSF was one of two vendor consortia formed during the UNIX wars of the late
 and Siemens**, OSF was formed primarily in response **to the threat created by a business alliance between AT&T** (the originators of UNIX) and **Sun** (the most
 powerful player in the UNIX workstation market).
 
+
 ## **SUSv3 and POSIX.1-2001**
 
 - Beginning in 1999, the IEEE, The Open Group, and the ISO/IEC Joint Technical
@@ -235,3 +236,6 @@ as **SUSv4**.
 
 - POSIX is a family of standards specified by the IEEE **to promote portability of application programs at the source code level**. It defines a standard API for the operating system, including system calls, shell, and some utility programs.
 
+#### **SUS standards**
+
+is a standard developed and maintained by **The Open Group** that defines a superset of the POSIX standard. It specifies a broader set of APIs, shell commands, and utilities for UNIX-like operating systems.**SUS aims to ensure compatibility and interoperability across different UNIX implementation**.
