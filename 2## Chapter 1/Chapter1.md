@@ -266,13 +266,12 @@ interface is included in the standard, important details are left unspecified (*
 
 The solid lines indicate direct descent between standards, and the dashed arrows indicate cases where one standard influenced another standard, was incorporated as part of another standard, or simply deferred to another standard.
 
-|POSIX "Portable Operating System Interface" |SUS "the Single UNIX Specification" |
-|--------------------------------------------|------------------------------------|
-|                                    |                                 |
-
-
 ## **The Linux Standard Base (LSB)**
 **is an effort to ensure compatibility among the various Linux distributions.** 
 
 To do this, the LSB **develops and promotes a set of standards for
 Linux systems with the aim of ensuring that binary applications** (i.e., compiled programs) can run on any LSB-conformant system.
+
+
+
+
