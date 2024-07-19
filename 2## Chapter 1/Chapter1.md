@@ -8,7 +8,7 @@
    - What Ken Thompson did?
    - C programming language arise
    - UNIX editions evolution
-       - *Editions evoluatio until Seventh edition*
+       - *Editions evoluation until Seventh edition*
        - *Berkeley Software Distribution (BSD)*
        - *System V*
 - **History of LINUX**
