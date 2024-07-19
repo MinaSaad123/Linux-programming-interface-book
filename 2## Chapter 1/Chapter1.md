@@ -1,6 +1,43 @@
 # **Chapter 1 History and standarads**
 
-## **UNIX**
+## Table of contents
+- **UNIX**
+   - There are two definitions of UNIX
+   - What is the meaning of UNIX implementation?  
+- **History of UNIX**
+   - What Ken Thompson did?
+   - C programming language arise
+   - UNIX editions evolution
+       - *Editions evoluatio until Seventh edition*
+       - *Berkeley Software Distribution (BSD)*
+       - *System V*
+- **History of LINUX**
+ - The GNU Project
+   - GPL license policy
+   - The genesis of LINUX kernel
+       - *The beginning*
+       - *Linus Torvalds Contribution*
+   - Linux kernel version numbers
+   - LINUX vs GNU/LINUX
+- **The C programming language versions**
+- **POSIX Standards**
+   - POSIX.1
+   - POSIX.2
+- **Beginning of X/Open company, Open Group and SUS**
+   - So what's SUS standards?
+   - What is OSF
+- **SUSv3 and POSIX.1-2001**
+- **SUSv4 and POSIX.1-2008**
+   - Different between SUS Standards and POSIX standarads
+- **POSIX conformance, XSI conformance, and the XSI extension**
+- **Unspecified, weakly specified and legacy features**
+- **UNIX Standards Timeline**
+- **The Linux Standard Base (LSB)**
+
+## **UNIX** 
+
+UNIX implementations had diverged over time, which had led to difficulty in writing applications that
+worked on all UNIX implementations. This had led to a drive for standardization of UNIX.
 
 UNIX implementations had diverged over time, which had led to difficulty in writing applications that
 worked on all UNIX implementations. This had led to a drive for standardization of UNIX implementations.
@@ -130,7 +167,7 @@ representing a major version, **y** a minor version within that major version, a
 
 Because a significant part of the program code that constitutes what is commonly known as the Linux system actually derives from the GNU project, Stallman prefers to use the term GNU/Linux to refer to the entire system. **<u>The question of naming (Linux versus GNU/Linux) is the source of some debate in the free software community</u>**.
 
-### **The C programming language versions**
+## **The C programming language versions**
 
 - A created drive for C standardization that culminated in 1989
 with the approval of the **American National Standards Institute** (**ANSI**) C standard
@@ -176,11 +213,9 @@ repackaged **as the Single UNIX Specification**.
 - Later, X/Open merged with the Open Software Foundation (**OSF**) **<u>to form The Open Group</u>**, Nearly every company or organization involved with the UNIX system
 is now a member of The Open Group, **<u>which continues to develop API standards</u>**.
 
-#### **So what's SUS standards ?**
+#### **So what's SUS standards?**
 
 is a standard developed and maintained by **The Open Group** that defines a superset of the POSIX standard. It specifies a broader set of APIs, shell commands, and utilities for UNIX-like operating systems.**SUS aims to ensure compatibility and interoperability across different UNIX implementation**.
-
----
 
 #### **What is OSF**
 OSF was one of two vendor consortia formed during the UNIX wars of the late
@@ -224,10 +259,6 @@ In 2008, the Austin group completed **<u>a revision of the combined POSIX.1 and 
 
 - A family of standards specified by the IEEE **to promote portability of application programs at the source code level** defining a standard API for the operating system, including system calls, shell, and some utility programs.
 
-#### **SUS standards**
-
-A standard developed and maintained by **The Open Group** that defines a superset of the POSIX standard. It specifies a broader set of APIs, shell commands, and utilities for UNIX-like operating systems.**SUS aims to ensure compatibility and interoperability across different UNIX implementation**.
-
 ## **POSIX conformance, XSI conformance, and the XSI extension**
 
 **POSIX conformance:** This defines a baseline of interfaces that a conforming
@@ -266,13 +297,12 @@ interface is included in the standard, important details are left unspecified (*
 
 The solid lines indicate direct descent between standards, and the dashed arrows indicate cases where one standard influenced another standard, was incorporated as part of another standard, or simply deferred to another standard.
 
-|POSIX "Portable Operating System Interface" |SUS "the Single UNIX Specification" |
-|--------------------------------------------|------------------------------------|
-|                                    |                                 |
-
-
 ## **The Linux Standard Base (LSB)**
 **is an effort to ensure compatibility among the various Linux distributions.** 
 
 To do this, the LSB **develops and promotes a set of standards for
 Linux systems with the aim of ensuring that binary applications** (i.e., compiled programs) can run on any LSB-conformant system.
+
+
+
+
