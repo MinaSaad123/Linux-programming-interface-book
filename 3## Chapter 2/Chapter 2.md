@@ -1,5 +1,4 @@
 # Chapter 2 FUNDAMENTAL CONCEPTS
-This
 
 ## Table of contents
 
